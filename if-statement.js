@@ -24,3 +24,14 @@ else if ((maths == "pass") && (english == "pass") && (kiswahili == "pass") && ((
 else {
     console.log("You are not able to do any course")
 }
+
+//Sum of numbers between 1 and an integer n
+
+{
+    function integerSum(n){
+        let intSum = (n*(n+1))/ 2;
+        return (intSum)
+    }
+    let ans=integerSum(5)
+    console.log(ans)
+}
