@@ -71,15 +71,16 @@
     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
 
     for (let i = 0; i < numbers.length; i++) {
-        
+
     }
 }
 //Values of the array backwords
 {
-const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-let n=numbers.length-1
+    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+    let n = numbers.length - 1
 
-for (let i = n; i >=0; i++) {
-    
+    for (let i = n; i >= 0; i++) {
+
+    }
 }
-}
+
