@@ -14,7 +14,9 @@
 
             studentAverages.push({ name: student.name, average: averageMarks })
         }
-
+        studentAverages.sort(function (a, b) {
+            return b.average - a.average;
+        })
 
         for (let i = 0; i < studentAverages.length; i++) {
             let student = studentAverages[i]
