@@ -10,3 +10,4 @@ function numbersTriangle(rows) {
 
 
 numbersTriangle(10);
+//Convert to using a while loop

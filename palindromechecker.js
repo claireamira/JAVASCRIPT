@@ -1,7 +1,14 @@
-function palindrome(str){
-    for (i=0; i<str.lenth/2; 1++){
-        if (str[i] !== str[str.length -1-i]){
-            return false
+
+{
+    function palindrome(str) {
+        for (let i = 0; i < str.length / 2; i++) {
+            if (str[i] !== str[str.length - 1 - i]) {
+                return false;
+            }
         }
-    } return true
-}console.log(palindrome("dad"))
+        return true;
+    }
+    
+    console.log(palindrome("dad")); 
+    
+}
